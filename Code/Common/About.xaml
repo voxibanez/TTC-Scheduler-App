@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+        xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="mainApp.About">
+  <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize = "Large" HorizontalTextAlignment="Center" Text="Thank You for using the TTC Companion App."/>
+            <Label FontSize = "Medium" Text="Lead Programmer: Tim Barber"/>
+            <Label FontSize = "Medium" Text="Lead Database Developer: Naman Shenoy"/>
+
+            <Label FontSize = "Default" Text="Please direct any questions about the event to _______ at ________@_________.___"/>
+            <ffimageloading:CachedImage 
+            DownsampleToViewSize="true" Source="http://anysilicon.com/wp-content/uploads/2016/06/Teradyne.jpg">
+            </ffimageloading:CachedImage>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
